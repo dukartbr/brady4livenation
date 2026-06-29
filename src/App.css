@@ -1,0 +1,404 @@
+#bodyContainer {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow-y: scroll;
+  background-color: #ffffff;
+}
+
+#header {
+  color: white;
+  background-color: #E51735;
+  padding: 12px 5%;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+#contactLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+#main {
+  padding: 20px 40px 0px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 1432px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+#modal {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 600px;
+  height: 200px;
+  background-color: #ffffff;
+  z-index: 5;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 0px 100vw rgb(0, 0, 0, 80%);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+#modalHeader {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 6px;
+  border-bottom: 4px solid #FF6200;
+  margin-bottom: 25px;
+}
+
+#modalContact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.modalIcon {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 2rem;
+  color: #E51735;
+}
+
+.modalIconTitle {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: #E51735;
+}
+
+#modalContact a {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+}
+
+#bigMuffBody {
+  background-color: #6d6d6d;
+  max-width: 535px;
+  height: 680px;
+  flex-grow: 1;
+  padding: 15px;
+  border-radius: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 10px 20px #000000;
+}
+
+#pedalContainer {
+  width: 550px;
+}
+#bigMuff {
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  background-color: #33670E;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 18px;
+  border: 4px #000000 solid;
+  padding-top: 15px;
+}
+
+#tubeScreamerBody {
+  background-color: #367034;
+  max-width: 400px;
+  height: 680px;
+  flex-grow: 1;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 10px 20px #000000;
+}
+
+.dialsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bigMuffTitle .logo {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -5px 5px #000000;
+}
+
+.dialContainer {
+  margin: auto;
+  position: relative;
+}
+
+.dial {
+  background-color: #121212;
+  color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 80px;
+  font-size: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #000000;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dialLead {
+  height: 60px;
+  width: 10px;
+  position: absolute;
+  right: 55px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.dialTitle {
+ padding: 12px 0px 32px;
+ text-transform: uppercase;
+ font-optical-sizing: auto;
+ text-align: center;
+ color: white;
+}
+
+#bigMuffTitle {
+  text-align: left;
+  z-index: 2;
+  position: relative;
+  padding-left: 20px;
+}
+
+.light {
+  height: 20px;
+  width: 20px;
+  background-color: #6a0000;
+  left: 180px;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  z-index: 3;
+  position: absolute;
+  box-shadow: 0px 0px 5px #000000;
+}
+
+.titleContainer {
+  padding: 80px 0px 40px;
+  position: relative;
+  width: 100%;
+}
+
+#reverbLogo {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 10px;
+  right: -60px;
+  z-index: 1;
+}
+
+#bigMuffTitle .name {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+#ghLink {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#bigMuffStomp {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+#tubeScreamerStompContainer {
+  height: 400px;
+  padding: 12px;
+  border-radius: 18px;
+  background-color: #3e833c;
+  box-shadow: 0px -20px 30px #142b14;
+}
+
+#tubeScreamerStomp {
+  background-color: #6d6d6d;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  border: 4px solid #000000;
+  border-radius: 18px;
+}
+
+#hireTitle {
+  padding: 12px 32px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-optical-sizing: auto;
+  font-style: bold;
+  background-color: #e51735;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#activateButton {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #383838;
+  border: 2px solid #000000;
+  position: relative;
+  z-index: 4;
+  cursor: pointer;
+}
+
+#activateButtonSwitch {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #6d6d6d;
+  border: 2px solid #000000;
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px #000000;
+}
+
+#infoHeader {
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 0px;
+  font-size: 1.25rem;
+  font-family: "Lilita One", sans-serif;
+}
+
+.infoContainer {
+  background-color: #ffffff;
+  height: 680px;
+  width: 350px;
+  border: 2px solid #000000;
+  border-radius: 18px;
+  padding: 12px;
+  box-shadow: 5px 5px 5px #727272;
+  overflow: hidden;
+}
+
+.infoTitle {
+  color: #E51735;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.infoDropDownHeader {
+  padding: 12px 0px;
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+}
+
+.infoDropDownDescription {
+  padding: 18px 2px;
+  line-height: 20px;
+  font-weight: normal;
+  cursor: initial
+}
+
+.infoDropDownDescriptionList {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoDropDownDescriptionList a {
+  text-decoration: none;
+  color: #000000;
+    padding: 6px 0px;
+}
+
+.infoDropDownDescriptionList a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #000000;
+}
+
+.toggleContainer {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  line-height: 25px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggleSwitch {
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.toggleSwitchContainer {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  background-color: #6d6d6d;
+  position: absolute;
+  left: -5px;
+}
+
+.toggleSwitchKnob {
+  height: 30px;
+  width: 10px;
+  background-color: #6d6d6d;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  position: absolute;
+  top: 5px;
+  box-shadow: 5px 5px 10px #000000;
+}
+
