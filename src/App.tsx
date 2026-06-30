@@ -159,7 +159,7 @@ const passionItems: PanelItem[] = [
 		list: [
 			{
 				text: 'Resume',
-				link: './BradyDukartResume.pdf'
+				link: './BradyDukart_Resume.pdf'
 			},
 			{
 				text: 'Letter of Recommendation',

@@ -17,7 +17,7 @@ export default function BigMuff({
 	return (
 		<div id="bigMuffBody">
 			<div id="bigMuff">
-				<div id="infoHeader">Dial the Knobs, Toggle the Switch, or Stomp the Box!</div>
+				<div id="infoHeader" style={{letterSpacing: '1px'}}>Dial the Knobs, Toggle the Switch, or Stomp the Box!</div>
 				<div className="dialsContainer">
 				<Dial title="Skills" position={skillsDial} setPosition={setSkillsDial} />
 				<Dial title="Education/Experience" position={experienceDial} setPosition={setExperienceDial} cb={() => !expSelected ? setExpSelected(true) : null} />
@@ -31,11 +31,11 @@ export default function BigMuff({
 					<div>
 						<div style={{display: 'flex'}}>
 							<p style={{borderBottom: '2px solid #000000'}}>Education/Experience</p>
-							<div className="light" style={{ backgroundColor: expSelected ? '#ff0000' : ''}}></div>
+							<div className="light" style={{ backgroundColor: expSelected ? '#5cbe64' : ''}}></div>
 							</div>
 						<div style={{display: 'flex'}}>
 							<p>About</p>
-							<div className="light" style={{ backgroundColor: expSelected ? '' : '#ff0000'}}></div>
+							<div className="light" style={{ backgroundColor: expSelected ? '' : '#5cbe64'}}></div>
 						</div>
 					</div>
 				</div>
